@@ -3,6 +3,8 @@
 /**
  *  prints 10 times the alphabet - function that prints 10 times the alphabet
  *
+ * Description: function to print alphabet
+ *
  *  Return: 0
  */
 void print_alphabet_x10(void)
@@ -15,7 +17,8 @@ void print_alphabet_x10(void)
 		{
 			_putchar(c);
 		}
-_putchar('\n');
+
+		_putchar('\n');
 
 	}
 }
